@@ -1,0 +1,38 @@
+
+# Ruby
+*.gem
+.bundle/
+/vendor/bundle/
+
+# Rails
+store/log/*
+!store/log/.keep
+store/tmp/*
+!store/tmp/.keep
+store/storage/*
+!store/storage/.keep
+store/coverage/
+store/.bundle/
+
+# Banco de dados local
+store/db/*.sqlite3
+store/db/*.sqlite3-*
+
+# Variáveis de ambiente e segredos locais
+store/.env
+store/.env.*
+!store/.env.example
+
+# Sistema operacional e editores
+.DS_Store
+.idea/
+
+# Rails secrets
+/store/config/master.key
+/store/config/credentials/*.key
+/store/.kamal/secrets
+
+# Local environment files
+/store/.env
+/store/.env.*
+!/store/.env.example
